@@ -10,14 +10,15 @@
         exceed four million, find the sum of the even-valued terms.
 """
 # =============================================================================
-# [resuelto] 4613732
-# [comprobado]
+# (upper left label is the current label)
 #
-# print(euler2(89))
-# 44
-# print(euler2(4000000))
-# 4613732
+# SOLUTION: 4613732
+#
+# STATUS: [ok]
+# VERIFIED:[ok]
+# EXECUTION TIME: [ok]
 # =============================================================================
+
 def fib(n):
     a,b = 1,2
     for i in range(n-1):

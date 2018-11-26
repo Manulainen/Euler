@@ -9,19 +9,19 @@
         of the numbers from 1 to 20?
 """
 # =============================================================================
-# [resuelto] 232792560
-# [comprobado]
+# (upper left label is the current label)
+#
+# SOLUTION: 232792560
+#
+# STATUS: [ok]
+# VERIFIED:[ok]
+# EXECUTION TIME: [ok]
 # =============================================================================
 
-# es mas de 66 millones...
 #   devuelve el primer numero que sea divisible por max_divisor y todos los
-#    numeros bajo el. si max_divisor es 3, busca el 1` numero divisible
-#    por 2 y por 3 a la vez
-
-# print(euler5(10))
-# 2520
-# print(euler5(20))
-# 232792560
+#   numeros bajo el. si max_divisor es 3, busca el 1` numero divisible
+#   por 2 y por 3 a la vez.. Se incrementa el gap, lo que reduce
+#   considerablemente la ejecucion
 
 def euler5(max_divisor):
     divisor = 2
@@ -34,7 +34,6 @@ def euler5(max_divisor):
             continue
         cont += gap
     return cont
-
 
 
 if __name__ == "__main__":

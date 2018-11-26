@@ -7,13 +7,13 @@
         What is the largest prime factor of the number 600851475143?
 """
 # =============================================================================
-# [resuelto] 6857
-# [comprobado]
+# (upper left label is the current label)
 #
-# print(euler3(13195))
-# [5, 7, 13, 29]
-# print(euler3(600851475143))
-# [71, 839, 1471, 6857]
+# SOLUTION: 6857
+#
+# STATUS: [ok]
+# VERIFIED:[ok]
+# EXECUTION TIME: [ok]
 # =============================================================================
 
 def euler3(big_number):

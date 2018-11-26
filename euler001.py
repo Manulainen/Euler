@@ -8,30 +8,16 @@
         Find the sum of all the multiples of 3 or 5 below 1000.
 """
 # =============================================================================
-# [resuelto] 233168
-# [comprobado]
+# (upper left label is the current label)
 #
-# print(euler1(10))
-# 23
-# print(euler1(1000))
-# 233168
+# SOLUTION: 233168
+#
+# STATUS: [ok]
+# VERIFIED:[ok]
+# EXECUTION TIME: [ok]
 # =============================================================================
 
 def euler1(cota_sup):
-    """
-
-    Parameters
-    ----------
-    cota_sup : int
-        top to be evaluated
-
-    -----
-
-    Returns
-    -------
-    total: int
-        Sum of all the multiples of 3 or 5 below cota_sup
-    """
     total = 0
     for i in range(cota_sup):
         if i%3 == 0 or i%5 == 0:

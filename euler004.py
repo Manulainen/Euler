@@ -9,41 +9,26 @@
          two 3-digit numbers.
 """
 # =============================================================================
-# [resuelto] 906609
-# [comprobado]
+# (upper left label is the current label)
+#
+# SOLUTION: 906609
+#
+# STATUS: [ok]
+# VERIFIED:[ok]
+# EXECUTION TIME: [ok]
 # =============================================================================
-def pal(X):
+
+def is_palindrome(X):
     cad=str(X)
     if cad == cad[::-1]:
         return True
     return False
 
-#def euler4a(max_range):
-#    t=[]
-#    for i in range(max_range+1):
-#        for j in range(max_range+1):
-##            print(i,j)
-#            if(pal(i*j)):
-#                t.append(i*j)
-#    print("4a", len(t))
-#    return(max(t))
-#
-#def euler4b(max_range):
-#    t=[]
-#    for i in range(1,max_range+1):
-#        for j in range(1,max_range+1):
-##            print(i,j)
-#            if(pal(i*j)):
-#                t.append(i*j)
-#    print("4b", len(t))
-#    return(max(t))
-
-
 def euler4(max_range):
     t=[]
     for i in range(1,max_range+1):
         for j in range(i,max_range+1):
-            if(pal(i*j)):
+            if(is_palindrome(i*j)):
                 t.append(i*j)
     return(max(t))
 
