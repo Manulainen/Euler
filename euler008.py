@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
+
 """
     EULER 8
         The four adjacent digits in the 1000-digit number that have
@@ -30,13 +31,13 @@
          that have the greatest product. What is the value of this product?
 """
 # =============================================================================
-# [resuelto] 23514624000
-# [comprobado]
+# (upper left label is the current label)
 #
-# print(euler8(4, MATRIX_STR))
-# 5832
-# print(euler8(13, MATRIX_STR)) #330 iteraciones
-# 23514624000
+# SOLUTION: 23514624000
+#
+# STATUS: [ok]
+# VERIFIED: [ok]
+# EXECUTION TIME: [ok]
 # =============================================================================
 
 MATRIX_STR = "73167176531330624919225119674426574742355349194934\
@@ -79,6 +80,7 @@ def evaluate(slide):
     devuelve la posicion del ultimo 0 encontrado +1.
              si no hay ninguno devuelve -1
     """
+
     zero_pos = slide.rfind("0")
     if zero_pos >= 0:
         return zero_pos + 1
@@ -90,6 +92,7 @@ def euler8(slider_size, matrix):
     si el slider no tiene ningun 0, evalua cual de ellos tiene la mayor
     multiplicacion entre sus elementos
     """
+
 #   i es el inicio del slide, puede ir de la 0 hasta canvas-size (incluido)
     i = 0
     maximum = 0, 0

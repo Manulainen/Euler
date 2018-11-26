@@ -11,7 +11,7 @@
 # SOLUTION:
 #
 # STATUS: [pending/ok]
-# VERIFIED:[no/ok]
+# VERIFIED: [no/ok]
 # EXECUTION TIME: [unacceptable/long/ok]
 # =============================================================================
 

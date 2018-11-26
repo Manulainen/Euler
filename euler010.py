@@ -8,49 +8,42 @@ from math import sqrt
         The sum of the primes below 10 is 2 + 3 + 5 + 7 = 17.
         Find the sum of all the primes below two million.
 """
-
 # =============================================================================
-# [resuelto] 142913828922
-# [comprobado]
+# (upper left label is the current label)
 #
-#  print(euler10(10))
-# 17
-# print(euler10(2000000))
-# 142913828922
+# SOLUTION: 142913828922
+#
+# STATUS: [ok]
+# VERIFIED: [ok]
+# EXECUTION TIME: [ok]
 # =============================================================================
 
-def generate_prime():
-    j=2
-    while True:
-        i =2
-        k=sqrt(j)
-        while i<=k:
-            if j%i==0:
-                break
-            i=i+1
-        if i>k:
-            yield j
-        j +=1
-
-def euler10(max_prime):
-    it = generate_prime()
-    prime = 0
-    total_sum = 0
-    while True:
-        prime = next(it)
-        if prime > max_prime:
-            break
-        # Prime that fills condition
-        total_sum += prime
-        #print(prime)
-    return total_sum
-
-
-if __name__ == "__main__":
-    print(euler10(10))
-# 17
-#    print(euler10(2000000))
-# 142913828922
+# Old generate_prime function. Unefficient!
+#def generate_prime():
+#    j=2
+#    while True:
+#        i =2
+#        k=sqrt(j)
+#        while i<=k:
+#            if j%i==0:
+#                break
+#            i=i+1
+#        if i>k:
+#            yield j
+#        j +=1
+#
+#def euler10(max_prime):
+#    it = generate_prime()
+#    prime = 0
+#    total_sum = 0
+#    while True:
+#        prime = next(it)
+#        if prime > max_prime:
+#            break
+#        # Prime that fills condition
+#        total_sum += prime
+#        #print(prime)
+#    return total_sum
 
 
 # Este esta mas optimizado
@@ -70,8 +63,21 @@ def prime_sieve(limit):
     return primes
 
 
-primes = prime_sieve(2000000)
-print(sum(primes))
+def euler10(limit):
+    primes = prime_sieve(limit)
+    return(sum(primes))
+
+
+if __name__ == "__main__":
+    print(euler10(10))
+# 17
+    print(euler10(2000000))
+# 142913828922
+
+
+
+
+
 
 
 

@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
+
 """
     EULER 9
         A Pythagorean triplet is a set of three natural numbers,
@@ -8,16 +9,14 @@
         There exists exactly one Pythagorean triplet for which a + b + c = 1000
         Find the product abc.
 """
-
 # =============================================================================
-# [resuelto] 31875000
-# [comprobado]
+# (upper left label is the current label)
 #
-# print(euler9(12))
-# 3 4 5 60
-# print(euler9(1000))
-# (375, 200, 425, 31875000)
-
+# SOLUTION: 31875000
+#
+# STATUS: [ok]
+# VERIFIED: [ok]
+# EXECUTION TIME: [ok]
 # =============================================================================
 
 def triplet(m, n):

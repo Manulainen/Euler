@@ -15,30 +15,18 @@
         one hundred natural numbers and the square of the sum.
 """
 # =============================================================================
-# [resuelto] 25164150
-# [comprobado]
+# (upper left label is the current label)
 #
-# print(euler6(10))
-# 2640
-# print(euler6(100))
-# 25164150
+# SOLUTION: 25164150
+#
+# STATUS: [ok]
+# VERIFIED: [ok]
+# EXECUTION TIME: [ok]
 # =============================================================================
 
 def sum_of_squares(top):
     """
     1² + 2² + ... + top²
-
-    Parameters
-    ----------
-    top : int
-        top to be evaluated
-
-    -----
-
-    Returns
-    -------
-    total: int
-        Sum of squares from 1 to top
     """
 
     return (top * (top + 1) * (2 * top + 1)) / 6
@@ -46,18 +34,6 @@ def sum_of_squares(top):
 def square_of_sum(top):
     """
     (1 + 2 + ... + top)²
-
-    Parameters
-    ----------
-    top : int
-        top to be evaluated
-
-    -----
-
-    Returns
-    -------
-    total: int
-        Square of sum from 1 to top
     """
 
     return ((top * (top + 1)) / 2) ** 2
@@ -65,20 +41,9 @@ def square_of_sum(top):
 def euler6(top):
     """
     (1 + 2 + ... + top)² - (1² + 2² + ... + top²)
-
-    Parameters
-    ----------
-    top : int
-        top to be evaluated
-
-    -----
-
-    Returns
-    -------
-    total: int
-        square_of_sum(top) - sum_of_squares(top)
     """
-    return square_of_sum(top) - sum_of_squares(top)
+
+    return int(square_of_sum(top) - sum_of_squares(top))
 
 
 if __name__ == "__main__":

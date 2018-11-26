@@ -10,13 +10,13 @@ from math import sqrt
         What is the 10001st prime number?
 """
 # =============================================================================
-# [resuelto] 104743
-# [comprobado]
+# (upper left label is the current label)
 #
-# print(euler7(6))
-# 13
-# print(euler7(10001))
-# 104743
+# SOLUTION: 104743
+#
+# STATUS: [ok]
+# VERIFIED: [ok]
+# EXECUTION TIME: [ok]
 # =============================================================================
 
 def generate_prime():
