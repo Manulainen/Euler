@@ -1,8 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
-from math import sqrt
-
 """
     EULER 10
         The sum of the primes below 10 is 2 + 3 + 5 + 7 = 17.
@@ -18,7 +16,7 @@ from math import sqrt
 # EXECUTION TIME: [ok]
 # =============================================================================
 
-# Old generate_prime function. Unefficient!
+#Old generate_prime function. Unefficient!
 #def generate_prime():
 #    j=2
 #    while True:
@@ -47,9 +45,9 @@ from math import sqrt
 
 
 # Este esta mas optimizado
-#Tarda menos de un segundo.
+# Tarda menos de un segundo.
 # Crea una lista con los numeros hasta limit.
-#recorre la lista tachando los que son multiplos del i y al final queda una
+# recorre la lista tachando los que son multiplos del i y al final queda una
 # lista con los primos hasta el limit.
 def prime_sieve(limit):
     a = [True] * limit
@@ -73,12 +71,3 @@ if __name__ == "__main__":
 # 17
     print(euler10(2000000))
 # 142913828922
-
-
-
-
-
-
-
-
-
