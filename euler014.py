@@ -21,12 +21,16 @@
         allowed to go above one million.
 """
 # =============================================================================
-# [resuelto] 837799
-# [comprobado]
+# (upper left label is the current label)
+#
+# SOLUTION: 837799
+#
+# STATUS: [ok]
+# VERIFIED: [ok]
+# EXECUTION TIME: [long/ok]
 # =============================================================================
 
 import time
-
 
 # =============================================================================
 # n → n/2 (n is even)
@@ -129,7 +133,7 @@ if __name__ == "__main__":
     print(euler14(1000000))
     #(837799, 525)
     t2 = time.clock()
-    print("Elapsed", t2 - t1)
+    #print("Elapsed", t2 - t1)
 
 
 
@@ -158,4 +162,3 @@ if __name__ == "__main__":
 #    startsequence(x,t)
 #    print("x{} = {}".format(x,t))
 #    print()
-

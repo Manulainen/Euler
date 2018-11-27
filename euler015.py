@@ -1,4 +1,4 @@
-euler#!/usr/bin/env python3
+#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
 """
@@ -10,8 +10,13 @@ euler#!/usr/bin/env python3
         How many such routes are there through a 20×20 grid?
 """
 # =============================================================================
-# [resuelto] 137846528820
-# [comprobado]
+# (upper left label is the current label)
+#
+# SOLUTION: 137846528820
+#
+# STATUS: [ok]
+# VERIFIED: [ok]
+# EXECUTION TIME: [ok]
 # =============================================================================
 
 from math import factorial

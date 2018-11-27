@@ -35,8 +35,13 @@
 
 """
 # =============================================================================
-# [resuelto] 70600674
-# [comprobado]
+# (upper left label is the current label)
+#
+# SOLUTION: 70600674
+#
+# STATUS: [ok]
+# VERIFIED: [ok]
+# EXECUTION TIME: [ok]
 # =============================================================================
 
 import time
@@ -99,7 +104,7 @@ def vecinos(M, x, y, len_slice):
         if mult > maxMult[0]:
             maxMult = (mult, der, "DER")
 
-    #Vecinos ABAJODER
+    #Vecinos ABAJO DER
     abader = []
     if(x+len_slice) <= maxL  and (y+len_slice) <= maxL:
         for i in range(len_slice):
@@ -125,7 +130,7 @@ def vecinos(M, x, y, len_slice):
         if mult > maxMult[0]:
             maxMult = (mult, aba, "ABA")
 
-    #Vecinos ABAJOIZQ
+    #Vecinos ABAJO IZQ
     abaizq = []
     if(y+1)-len_slice >= 0 and (x+len_slice) <= maxL:
         for i in range(len_slice):
@@ -174,4 +179,4 @@ if __name__ == "__main__":
     print(euler11(4))
     #70600674
     time_2 = time.clock()
-    print("Time", time_2 - time_1)
+    #print("Time", time_2 - time_1)

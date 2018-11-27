@@ -24,8 +24,13 @@
         to have over five hundred divisors?
 """
 # =============================================================================
-# [resuelto]  76576500
-# [comprobado]
+# (upper left label is the current label)
+#
+# SOLUTION: 76576500
+#
+# STATUS: [ok]
+# VERIFIED: [ok]
+# EXECUTION TIME: [long/ok]
 # =============================================================================
 
 from math import ceil
@@ -146,16 +151,15 @@ def euler12(num_factors):
         #print(tn)
         return_factors = list_factorsNew(tn)
     #print("Number {} Num factors {} ".format(tn, return_factors))
-    return tn
+    return int(tn)
 
 
 if __name__ == "__main__":
     print(euler12(5))
     # 28
     import time
-    timeA=time.clock()
+    #timeA=time.clock()
     print(euler12(500))
     # 76576500
     timeB=time.clock()
-    print("Elapsed {} sec ".format(timeB-timeA))
-
+    #print("Elapsed {} sec ".format(timeB-timeA))
