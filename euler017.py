@@ -16,10 +16,14 @@
         The use of "and" when writing out numbers is in compliance
         with British usage.
 """
-
 # =============================================================================
-# [resuelto] 21124
-# [comprobado]
+# (upper left label is the current label)
+#
+# SOLUTION: 21124
+#
+# STATUS: [ok]
+# VERIFIED: [ok]
+# EXECUTION TIME: [ok]
 # =============================================================================
 
 ordinalDict = {}
@@ -102,4 +106,3 @@ if __name__ == "__main__":
     #19
     print(euler17(1000))
     #21124
-
