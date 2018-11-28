@@ -24,10 +24,14 @@
         be written as the sum of two abundant numbers.
 
 """
-
 # =============================================================================
-# [resuelto] 4179871
-# [comprobado]
+# (upper left label is the current label)
+#
+# SOLUTION: 4179871
+#
+# STATUS: [ok]
+# VERIFIED: [ok]
+# EXECUTION TIME: [long/ok]
 # =============================================================================
 
 from itertools import combinations_with_replacement

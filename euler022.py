@@ -17,10 +17,14 @@
         What is the total of all the name scores in the file?
 
 """
-
 # =============================================================================
-# [resuelto] 871198282
-# [comprobado]
+# (upper left label is the current label)
+#
+# SOLUTION: 871198282
+#
+# STATUS: [ok]
+# VERIFIED: [ok]
+# EXECUTION TIME: [ok]
 # =============================================================================
 
 import string

@@ -25,10 +25,14 @@
         to contain 1000 digits?
 
 """
-
 # =============================================================================
-# [resuelto] 4782
-# [comprobado]
+# (upper left label is the current label)
+#
+# SOLUTION: 4782
+#
+# STATUS: [ok]
+# VERIFIED: [ok]
+# EXECUTION TIME: [ok]
 # =============================================================================
 
 def fibo():

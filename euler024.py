@@ -13,10 +13,14 @@
         What is the millionth lexicographic permutation of the
         digits 0, 1, 2, 3, 4, 5, 6, 7, 8 and 9?
 """
-
 # =============================================================================
-# [resuelto] 2783915460
-# [comprobado]
+# (upper left label is the current label)
+#
+# SOLUTION: 2783915460
+#
+# STATUS: [ok]
+# VERIFIED: [ok]
+# EXECUTION TIME: [ok]
 # =============================================================================
 
 from itertools import permutations

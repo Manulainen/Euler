@@ -10,10 +10,14 @@
 
             Find the sum of the digits in the number 100!
 """
-
 # =============================================================================
-# [resuelto] 648
-# [comprobado]
+# (upper left label is the current label)
+#
+# SOLUTION: 648
+#
+# STATUS: [ok]
+# VERIFIED: [ok]
+# EXECUTION TIME: [ok]
 # =============================================================================
 
 from math import factorial as f

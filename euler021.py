@@ -15,10 +15,14 @@
         Evaluate the sum of all the amicable numbers under 10000.
 
 """
-
 # =============================================================================
-# [resuelto] 31626
-# [comprobar]
+# (upper left label is the current label)
+#
+# SOLUTION: 31626
+#
+# STATUS: [ok]
+# VERIFIED: [ok]
+# EXECUTION TIME: [long/ok]
 # =============================================================================
 
 from itertools import product

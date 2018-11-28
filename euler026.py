@@ -23,8 +23,13 @@
     recurring cycle in its decimal fraction part
 """
 # =============================================================================
-# [resuelto] 983
-# [comprobado]
+# (upper left label is the current label)
+#
+# SOLUTION: 983
+#
+# STATUS: [ok]
+# VERIFIED: [ok]
+# EXECUTION TIME: [ok]
 # =============================================================================
 
 def div(a, b):

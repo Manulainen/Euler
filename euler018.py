@@ -37,10 +37,14 @@
         same challenge with a triangle containing one-hundred rows;
         it cannot be solved by brute force, and requires a clever method! ;o)
 """
-
 # =============================================================================
-# [resuelto] 1074
-# [comprobado]
+# (upper left label is the current label)
+#
+# SOLUTION: 1074
+#
+# STATUS: [ok]
+# VERIFIED: [ok]
+# EXECUTION TIME: [ok]
 # =============================================================================
 
 TLITTLE = [[3],
