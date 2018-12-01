@@ -25,7 +25,9 @@
 # EXECUTION TIME: [ok]
 # =============================================================================
 
-from EulerUtils.eulerFunctions import generate_prime, is_prime
+import sys
+sys.path.append('../../')
+from Euler.EulerUtils.eulerFunctions import generate_prime, is_prime
 
 def euler50(top):
     found=[]

@@ -27,7 +27,9 @@
 # EXECUTION TIME: [unacceptable/long/ok]
 # =============================================================================
 
-from eulerFunctions import get_prime_factors
+import sys
+sys.path.append('../../')
+from Euler.EulerUtils.eulerFunctions import get_prime_factors
 
 def euler47(number_of_consecutive):
     """

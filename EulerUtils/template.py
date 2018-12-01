@@ -15,8 +15,10 @@
 # EXECUTION TIME: [unacceptable/long/ok]
 # =============================================================================
 
-
-
+# Remove if not necessary
+# import sys
+# sys.path.append('../../')
+# from Euler.EulerUtils import eulerFunctions as ef
 
 
 
