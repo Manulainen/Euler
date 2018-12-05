@@ -19,7 +19,7 @@
 # SOLUTION: 972
 #
 # STATUS: [ok]
-# VERIFIED: [ok]
+# VERIFIED: [no/ok]
 # EXECUTION TIME: [ok]
 # =============================================================================
 
