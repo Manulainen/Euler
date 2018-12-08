@@ -210,3 +210,9 @@ def generate_triplet():
 from math import factorial as f
 def b(m,n):
     return int(f(m)/(f(n)*f(m-n)))
+
+# =============================================================================
+# HINT SQUARE
+# =============================================================================
+def is_square(num):
+     return num**0.5 % 1 == 0
