@@ -17,6 +17,7 @@
 
 # Remove if not necessary
 # import sys
+# sys.path.append('../')
 # sys.path.append('../../')
 # from Euler.EulerUtils import eulerFunctions as ef
 
@@ -25,6 +26,9 @@
 
 
 
+
+
 if __name__ == "__main__":
-    print(eulerXXX())
+    pass
+    #print(eulerXXX())
     # SOLUTION
