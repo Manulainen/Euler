@@ -50,7 +50,9 @@
 # from Euler.EulerUtils import eulerFunctions as ef
 
 ###############################################################################
+#
 # Dictionary file from : https://github.com/first20hours/google-10000-english
+#
 ###############################################################################
 
 import itertools
@@ -71,7 +73,7 @@ def enc_dec(iOrig, iKey):
 ##############################################################################
 
 def euler059():
-    with open("20k.txt") as word_file:
+    with open("p059_dictionary.txt") as word_file:
         eng_set = set(word.strip().lower() for word in word_file)
 
 
