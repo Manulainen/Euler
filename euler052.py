@@ -15,7 +15,7 @@
 # SOLUTION: 142857
 #
 # STATUS: [ok]
-# VERIFIED: [no/ok]
+# VERIFIED: [ok]
 # EXECUTION TIME: [ok]
 # =============================================================================
 

@@ -31,7 +31,7 @@
 # SOLUTION: 26241
 #
 # STATUS: [ok]
-# VERIFIED: [no/ok]
+# VERIFIED: [ok]
 # EXECUTION TIME: [long/ok]
 # =============================================================================
 

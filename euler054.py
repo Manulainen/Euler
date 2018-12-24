@@ -62,7 +62,7 @@
 # SOLUTION: 376
 #
 # STATUS: [ok]
-# VERIFIED: [no/ok]
+# VERIFIED: [ok]
 # EXECUTION TIME: [ok]
 # =============================================================================
 
