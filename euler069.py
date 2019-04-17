@@ -28,7 +28,7 @@
 # SOLUTION: 510510
 #
 # STATUS: [ok]
-# VERIFIED: [no/ok]
+# VERIFIED: [ok]
 # EXECUTION TIME: [long]
 # =============================================================================
 
