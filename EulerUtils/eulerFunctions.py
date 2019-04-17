@@ -216,3 +216,22 @@ def b(m,n):
 # =============================================================================
 def is_square(num):
      return num**0.5 % 1 == 0
+
+
+# =============================================================================
+# HINT PERMUTATIONS
+# =============================================================================
+def is_permutation(n, m):
+    nStr = str(n)
+    mStr = str(m)
+
+    for l in nStr:
+        if l not in mStr:
+            break
+        else:
+            mStr = mStr.replace(l, '', 1)
+
+    if not mStr:
+        return True
+    else:
+        return False
