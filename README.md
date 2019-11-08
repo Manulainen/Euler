@@ -1,5 +1,3 @@
-# Euler
-
 | Long execution(~20 secs) | Very long (> 1min) | Not verified |
 | :---------------------:  |:------------------:|:------------:|
 | 12                       | 47                 |              |
