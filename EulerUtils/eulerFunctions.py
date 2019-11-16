@@ -65,11 +65,20 @@ def prime_sieve(limit):
 def T(n):
     return int((n * (n +1))/2)
 
+def squa(n):
+    return n**2  
+
 def P(n):
     return int((n * (3*n -1))/2)
 
 def H(n):
     return int(n * (2*n -1))
+
+def hept(n):
+    return int(n*(5*n-3)/2)
+
+def octo(n):
+    return n*(3*n-2)
 
 def isT(n):
     inverse = (-1+sqrt(1+8*n))/2
